@@ -8,7 +8,7 @@ const Card = () => {
             {Data.map((element) => <p className={card.container}>
             <span className={card.Icon}><FaUserCircle /></span>
 
-            <div className={card.wrapper}><h4> {element.Name}</h4>  
+            <div className={card.wrapper}><h4 className={card.name}> {element.Name}</h4>  
              {element.Email}</div>
              
               </p> )}
