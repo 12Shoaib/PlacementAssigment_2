@@ -1,0 +1,15 @@
+.EditButton {
+    width: 7.5rem;
+    height: 2rem;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    border-radius: 20px;
+    outline: none;
+    color: #2196F3;
+    background-color: white;
+    border: 2px solid #2196F3 ;
+}
+.EditButton:hover{
+    background-color: #2196F3;
+    color: white;
+}

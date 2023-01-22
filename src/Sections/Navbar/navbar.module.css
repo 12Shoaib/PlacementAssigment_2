@@ -1,0 +1,13 @@
+.mainComponent{
+    display: flex;
+    border: 0.01rem solid #2196F3;
+    background-color: #2196F3;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    padding-left: 15px;
+    line-height: 15px;
+}
