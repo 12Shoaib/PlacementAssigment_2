@@ -1,6 +1,12 @@
 .header{
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
-
+    padding-top: 1rem;
 }
+.mainComponent{
+    width: 454px;
+    border-right: 0.01rem solid black;
+    position: fixed;
+}
+
+

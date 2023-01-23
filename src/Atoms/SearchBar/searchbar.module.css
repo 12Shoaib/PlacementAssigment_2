@@ -1,11 +1,10 @@
 .Search{
-    height: 2rem;
+    height: 2.5rem;
     width: 25rem;
     font-size: 0.9rem;
     border-radius: 5px;
     outline: none;
     border: 0.01rem solid #2196F3;
-    margin: 3px;
 }
 .Search:focus {
     outline: none;

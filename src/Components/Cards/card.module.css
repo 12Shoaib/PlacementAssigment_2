@@ -3,9 +3,10 @@
 }
 .container{
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center; 
+}
+.container:hover{
+    background-color: lightgray;
 }
 .wrapper{
     display: flex;
