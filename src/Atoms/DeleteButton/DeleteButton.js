@@ -1,11 +1,11 @@
 import deletebutton from '../DeleteButton/deletebutton.module.css'
 
-const DeleteButton = () => {
+const DeleteButton = (props) => {
 
     return (
        <div className={deletebutton.mainComponent}>
 
-        <button className={deletebutton.DelButton}>Delete</button>
+        <button onClick={props.onClick} className={deletebutton.DelButton}>Delete</button>
 
        </div>
     )

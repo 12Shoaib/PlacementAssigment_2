@@ -1,3 +1,67 @@
 .mainComponent{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    padding-left: 0.5rem;
+}
+.header{
+    height: 7rem;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom:0.01rem solid grey ;
+    margin-top: 0.8rem;
+}
+.Icon{
+    font-size: 3rem;
+    padding: 0px;
+    margin: 0px;
+}
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.Name{
+    letter-spacing: 1px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 0.4rem;
+    padding-right: 5rem;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 3.4rem;
+}
+.userName{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0rem;
+    padding-right: 1rem;
+    
+}
+.Email{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0rem;
+    padding-right: 1rem;
+
+}
+.phone{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0rem;
+    padding-right: 1rem;
 
 }

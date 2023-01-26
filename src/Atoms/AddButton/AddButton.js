@@ -1,12 +1,12 @@
 import addbutton from '../AddButton/addbutton.module.css'
 import {AiFillPlusCircle} from 'react-icons/ai'
 
-const AddButton = () => {
+const AddButton = (props) => {
     
     return (
         <div className={addbutton.mainComponent}>
 
-        <button className={addbutton.AddButton}><span className={addbutton.Icon}><AiFillPlusCircle /></span></button>
+        <button onClick={props.onClick} className={addbutton.AddButton}><span className={addbutton.Icon}><AiFillPlusCircle /></span></button>
 
         </div>
     )
